@@ -1,10 +1,14 @@
 import React from 'react';
+import TripCard from "../Shared/TripCard/TripCard";
+import SideTripCard from "../Shared/SideTripCard/SideTripCard";
 
 
 function Overview() {
     return (
         <div>
-            Ovirwview
+            <TripCard/>
+            <TripCard/>
+            <TripCard/>
         </div>
     );
 }

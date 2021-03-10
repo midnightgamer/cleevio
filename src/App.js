@@ -3,6 +3,7 @@ import Sidemenu from "./components/Sidemenu/Sidemenu";
 import Overview from "./components/Overview/Overview";
 import NewTrip from "./components/NewTrip/NewTrip";
 import styles from './App.module.scss'
+import SideTripCard from "./components/Shared/SideTripCard/SideTripCard";
 
 function App() {
     return (
@@ -12,12 +13,12 @@ function App() {
             </div>
             <div className={styles.container}>
                 <Switch>
-                    <Route path={'/'} component={Overview}/>
+                    <Route path={'/'} exact component={Overview}/>
                     <Route path={'/new-trip'} exact component={NewTrip}/>
                 </Switch>
             </div>
             <aside className={styles.aside}>
-                <>
+                {/*  <>
                     <h2>
                         Tips & tricks
                     </h2>
@@ -42,6 +43,14 @@ function App() {
                         thrive while being taken care of. They break problems down to first principles and reason
                         upwards. The goal is to turn 20 percent of their effort into 80 percent of the impact.
                     </p>
+                </>*/}
+                <>
+                    <h2>
+                        Trips
+                    </h2>
+                    <SideTripCard/>
+                    <SideTripCard/>
+                    <SideTripCard/>
                 </>
             </aside>
         </div>

@@ -1,0 +1,87 @@
+.tripCard {
+    padding: 20px;
+    background: var(--grey);
+    border-radius: 10px;
+    margin: 0 0 20px;
+    display: flex;
+    align-items: center;
+
+    .country-img {
+        img {
+            width: 38px;
+            height: 38px;
+        }
+    }
+
+    .info {
+        margin: 0 0 0 24px;
+
+        p {
+            margin: 0;
+            font-size: 1.4rem;
+            color: var(--dark-grey);
+
+            &::before {
+                content: "|";
+                display: inline-block;
+                margin: 0 20px;
+                color: #E4E4E5;
+            }
+        }
+
+
+        .country {
+            display: flex;
+
+            h4 {
+                font-size: 1.6rem;
+                color: #000;
+                font-weight: 600;
+            }
+
+            margin: 0 0 5px;
+        }
+
+        .city {
+            display: flex;
+
+            h5 {
+                font-size: 1.4rem;
+                font-weight: 400;
+            }
+
+        }
+    }
+
+    .btn_group {
+        margin: 0 0 0 auto;
+        display: flex;
+        align-items: center;
+
+        .btn {
+            cursor: pointer;
+            width: 48px;
+            height: 48px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            &:not(:last-of-type) {
+                margin: 0 20px 0 0;
+            }
+
+            svg {
+                width: 16px;
+            }
+
+            &.btn-delete {
+                background: #FBEBE9;
+            }
+
+            &.btn-go {
+                background: #F1F1F2;
+            }
+        }
+    }
+}

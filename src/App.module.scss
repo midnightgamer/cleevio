@@ -1,15 +1,13 @@
 .App {
-    display: flex;
-    justify-content: space-between;
-
+   display: grid;
+    grid-template-columns: 240px 1fr 320px;
     .menu {
 
     }
 
     .container {
-        position: relative;
-        left: 240px;
-        width: calc(100% - 560px);
+        padding: 40px;
+        width: 100%;
     }
 
     .aside {

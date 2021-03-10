@@ -20,7 +20,7 @@ function SideMenu() {
                             </Link>
                         </li>
                         <li>
-                            <Link to={'/overview'} className={styles.active} >
+                            <Link to={'/'} className={styles.active} >
                                 {clockIcon} Your trips
                             </Link>
                         </li>
