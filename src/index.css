@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --accent: #FED949;
+    --dark-grey: #97999B;
+    --grey: #F9F9FA;
+    --light-grey: #D0D0CE;
+    --black: #1C252B;
+    font-size: 62.5%;
+}
+
+body {
+    text-rendering: optimizeLegibility;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+h2 {
+    font-size: 24px;
+    line-height: 33px;
+    color: #000;
+    margin: 0 0 20px;
+}
+
+p {
+    font-size: 12px;
+    line-height: 16px;
+    color: #63666A;
+    margin: 0 0 20px;
+}

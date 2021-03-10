@@ -1,0 +1,22 @@
+.App {
+    display: flex;
+    justify-content: space-between;
+
+    .menu {
+
+    }
+
+    .container {
+        position: relative;
+        left: 240px;
+        width: calc(100% - 560px);
+    }
+
+    .aside {
+        width: 320px;
+        max-width: 320px;
+        height: 100vh;
+        border-left: 1px solid #F1F1F2;
+        padding: 40px;
+    }
+}
